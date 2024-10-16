@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 10px;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
